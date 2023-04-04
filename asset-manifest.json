@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-landing-page/static/css/main.6057566a.css",
+    "main.js": "/react-landing-page/static/js/main.09e2d0f5.js",
+    "static/media/pexels-pixabay-220436.jpg": "/react-landing-page/static/media/pexels-pixabay-220436.607a146cd576dae3dd6c.jpg",
+    "static/media/portrait-severe-young-short-haired-bearded-male-frowning-his-eyebrows-keeping-index-finger-his-lips-while-asking-be-quiet-isolated-white-wall.jpg": "/react-landing-page/static/media/portrait-severe-young-short-haired-bearded-male-frowning-his-eyebrows-keeping-index-finger-his-lips-while-asking-be-quiet-isolated-white-wall.8923654361936e6ec78e.jpg",
+    "static/media/pexels-david-bartus-610293.jpg": "/react-landing-page/static/media/pexels-david-bartus-610293.42da5a04f1c2d89249b6.jpg",
+    "static/media/teenage-girl-happy-looking-woman-with-curly-ginger-hair-wearing-striped-off-shoulders-blouse-hat-playing-with-strand-hair-smile-isolated-white-wall.jpg": "/react-landing-page/static/media/teenage-girl-happy-looking-woman-with-curly-ginger-hair-wearing-striped-off-shoulders-blouse-hat-playing-with-strand-hair-smile-isolated-white-wall.ada42d4b572fe26e27de.jpg",
+    "static/media/pexels-napakorn-saksuk-787035.jpg": "/react-landing-page/static/media/pexels-napakorn-saksuk-787035.c300b3c8cb66c10f97ba.jpg",
+    "static/media/indoor-shot-young-adult-female-keeps-her-palms-together-praying-position-meditating-smiling-keeps-her-eyes-opened-isolated-white-background.jpg": "/react-landing-page/static/media/indoor-shot-young-adult-female-keeps-her-palms-together-praying-position-meditating-smiling-keeps-her-eyes-opened-isolated-white-background.9c84aa2c23c04e4f9ae7.jpg",
+    "static/media/teenage-shocked-girl-with-blond-hair-gathered-bun-tattoo-wearing-yellow-sweater-eyewear-pointing-index-fingers-up-copy-space-looking-camera-isolated-white-wall.jpg": "/react-landing-page/static/media/teenage-shocked-girl-with-blond-hair-gathered-bun-tattoo-wearing-yellow-sweater-eyewear-pointing-index-fingers-up-copy-space-looking-camera-isolated-white-wall.d124674ad8d22514d2cb.jpg",
+    "index.html": "/react-landing-page/index.html",
+    "main.6057566a.css.map": "/react-landing-page/static/css/main.6057566a.css.map",
+    "main.09e2d0f5.js.map": "/react-landing-page/static/js/main.09e2d0f5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6057566a.css",
+    "static/js/main.09e2d0f5.js"
+  ]
+}
