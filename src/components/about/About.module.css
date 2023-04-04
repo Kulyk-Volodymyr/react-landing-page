@@ -1,0 +1,152 @@
+.about {
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 70px auto;
+    max-width: 1200px;
+    width: 80%;
+}
+
+.firstArticle {
+    border: 3px solid #fff;
+    color: #fff;
+    max-width: 400px;
+    padding: 6px 50px;
+}
+
+.firstArticle a {
+    color: #fff;
+}
+
+.firstArticle p:last-child {
+    margin: 40px 0;
+}
+
+.secondArticle {
+    box-shadow: rgba(0, 0, 0, 0.9) 0px 8px 24px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: 70px;
+    width: 100%;
+}
+
+.adviceContainer {
+    margin: 50px 50px 30px 50px;
+}
+
+.adviceContainer h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.adviceContainer p {
+    margin: 0;
+}
+
+.formContainer {
+    margin: 0 50px 50px 50px;
+}
+
+.form {
+    display: flex;
+}
+
+.formInput {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    width: 100%;
+}
+
+.formInput label {
+    font-size: 16px;
+    white-space: pre;
+}
+ 
+.formInput input {
+    background: none;
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #000;
+    font-size: 16px;
+    height: 40px;
+    position: relative;
+    text-indent: 6px;
+    width: 100%;
+}
+
+.formInput input::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.formInput input:focus {
+    outline: none;
+}
+  
+.form button {
+    background-color: #121619;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    height: 40px;
+    width: 100%;
+}
+
+.form button:hover {
+    background-color: #9DC08B;
+    color: #40513B;
+}
+
+@media screen and (max-width: 767px) {
+    .about {
+        background-position: left 12% top 0;
+    }
+
+    .form {
+        flex-wrap: wrap;
+    }
+
+    .form button {
+        margin-top: 20px;
+    }
+}
+  
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .about {
+        background-position: left 34% top 0;
+    }
+
+    .form {
+        flex-wrap: wrap;
+    }
+
+    .formInput {
+        flex: 1;
+    }
+
+    .form button {
+        margin-top: 20px;
+    }
+}
+  
+@media screen and (min-width: 992px) {
+    .about {
+        background-position: left 18% top 0;
+    }
+
+    .form {
+        gap: 30px;
+    }
+
+    .form button {
+        max-width: 240px;
+    }
+}

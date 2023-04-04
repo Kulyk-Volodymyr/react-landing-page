@@ -1,0 +1,59 @@
+.banner {
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    margin: 140px auto;
+    max-width: 1200px;
+    width: 80%;
+}
+
+.content {
+    border: 3px solid #fff;
+    color: #fff;
+    max-width: 400px;
+    padding: 6px 50px;
+    width: 100%;
+}
+
+.content a {
+    color: #fff;
+}
+
+.content p:last-child {
+    margin: 40px 0;
+}
+
+@media screen and (max-width: 575px) {
+    .banner {
+        background-position: right 37% top 60%;
+    }
+}
+  
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .banner {
+        background-position: right 32% top 60%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .banner {
+        background-position: right 28% top 60%;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .banner {
+        background-position: right 22% top 60%;
+    }
+}
+  
+@media screen and (min-width: 1200px) {
+    .banner {
+        background-position: right 0% top 50%;
+        background-size: 120%;
+    }
+}

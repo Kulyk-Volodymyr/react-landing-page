@@ -1,0 +1,103 @@
+.offers {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 1000px;
+  width: 80%;   
+}
+
+.offers h1 {
+  margin-top: 0;
+}
+
+.container {
+  display: flex;
+  margin-bottom: 70px;
+  position: relative;
+  width: 100%;
+}
+
+.tabbyTab {
+  flex: 1;
+}
+
+.tabbyTab label {
+  align-items: center;
+  background: #9DC08B;
+  border: 1px solid #40513B;
+  cursor: pointer;
+  display: flex;
+  font-size: 18px;
+  height: 40px;
+  justify-content: center;
+  padding: 10px;
+  text-align: center;  
+}
+  
+.tabbyTab label:hover {
+    background: #609966;
+}
+
+.tabbyContent {
+  background-color: #EDF1D6;
+  border: 1px solid #40513B;
+  line-height: 180%;
+  opacity: 0;
+  padding: 20px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 60px; 
+}
+
+.tabbyTab [type=radio] { 
+  display: none;
+}
+
+.tabbyTab [type=radio]:checked ~ label {
+  background: #609966;
+  z-index: 2;
+}
+  
+.tabbyTab [type=radio]:checked ~ label ~ .tabbyContent {
+  opacity: 1;
+  z-index: 1;
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    height: 820px;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 576px) {
+  .container {
+    height: 690px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .container {
+    height: 470px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .container {
+    height: 360px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    height: 300px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    height: 280px;
+  }
+}
